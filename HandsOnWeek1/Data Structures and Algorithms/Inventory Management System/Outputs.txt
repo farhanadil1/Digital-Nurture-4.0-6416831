@@ -1,0 +1,103 @@
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 5
+Inventory is empty.        
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 1
+Enter Product ID: 101
+Enter Product Name: Bike
+Enter Quantity: 4
+Enter Price: 80000
+Product added successfully.
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 5
+Inventory List:
+ID: 101, Name: Bike, Qty: 4, Price: 80000.0
+
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 2
+Enter Product ID to update: 101
+Enter New Product Name: Sports Bike
+Enter New Quantity: 6
+Enter New Price: 100000
+Product updated successfully.
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 5
+Inventory List:
+ID: 101, Name: Sports Bike, Qty: 6, Price: 100000.0
+
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 4
+Enter Product ID to retrieve: 101
+Retrieved Product: ID: 101, Name: Sports Bike, Qty: 6, Price: 100000.0
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 3
+Enter Product ID to delete: 101
+Product deleted successfully.
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 5
+Inventory is empty.
+
+Inventory Management System
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product
+5. Print Inventory
+6. Exit
+Enter your choice: 6
+PS F:\HandsOnWeek1\Data Structures and Algorithms\Inventory Management System>
