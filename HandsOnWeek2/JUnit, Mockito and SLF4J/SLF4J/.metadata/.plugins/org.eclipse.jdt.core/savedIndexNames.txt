@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+F:\HandsOnWeek1\JUnit, Mockito and SL4J\slf4j\.metadata\.plugins\org.eclipse.jdt.core
+434670684.index
+1865797976.index
+1595635624.index
+2395032842.index
+1604301808.index

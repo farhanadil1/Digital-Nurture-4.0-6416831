@@ -1,0 +1,52 @@
+package com.example;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+
+public class CalculatorTest {
+
+    private Calculator calc;
+
+    @Before
+    public void setUp() {
+        System.out.println("Setting up Calculator...");
+        calc = new Calculator(); // Arrange
+    }
+
+    @After
+    public void tearDown() {
+        System.out.println("Cleaning up...");
+        calc = null;
+    }
+
+    @Test
+    public void testAdd() {
+        // Act
+        int result = calc.add(10, 5);
+        // Assert
+        assertEquals(15, result);
+    }
+
+    @Test
+    public void testSubtract() {
+        int result = calc.subtract(10, 5);
+        assertEquals(5, result);
+    }
+
+    @Test
+    public void testMultiply() {
+        int result = calc.multiply(4, 5);
+        assertEquals(20, result);
+    }
+
+    @Test
+    public void testDivide() {
+        int result = calc.divide(20, 5);
+        assertEquals(4, result);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void testDivideByZero() {
+        calc.divide(10, 0); // This should throw exception
+    }
+}

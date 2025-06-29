@@ -1,0 +1,4 @@
+2025-06-29 14:03:46 DEBUG com.example.AppenderExample - Debug message
+2025-06-29 14:03:46 INFO  com.example.AppenderExample - Info message
+2025-06-29 14:03:46 WARN  com.example.AppenderExample - Warning message
+2025-06-29 14:03:46 ERROR com.example.AppenderExample - Error message

@@ -1,0 +1,41 @@
+package junitdemo;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class CalculatorTest {
+
+    @Test
+    public void testAddition() {
+        Calculator calc = new Calculator();
+        int result = calc.add(10, 5);
+        assertEquals(15, result);
+    }
+
+    @Test
+    public void testSubtraction() {
+        Calculator calc = new Calculator();
+        int result = calc.subtract(10, 5);
+        assertEquals(5, result);
+    }
+
+    @Test
+    public void testMultiplication() {
+        Calculator calc = new Calculator();
+        int result = calc.multiply(4, 5);
+        assertEquals(20, result);
+    }
+
+    @Test
+    public void testDivision() {
+        Calculator calc = new Calculator();
+        int result = calc.divide(20, 5);
+        assertEquals(4, result);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void testDivideByZero() {
+        Calculator calc = new Calculator();
+        calc.divide(10, 0);
+    }
+}

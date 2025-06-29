@@ -1,0 +1,5 @@
+package slf4j;
+
+public class LoggingExample {
+
+}
