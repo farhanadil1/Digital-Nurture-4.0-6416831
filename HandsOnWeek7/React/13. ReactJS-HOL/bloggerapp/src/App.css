@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; 
+}
+
+.App > div {
+  width: 30%;
+  padding: 20px;
+  border-right: 4px solid green; 
+  box-sizing: border-box;
+}
+
+.App > div:last-child {
+  border-right: none; 
+}
